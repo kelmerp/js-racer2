@@ -4,9 +4,6 @@
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
 }
-th {
-  text-align: left;
-}
 
 .racer_table td {
   background-color: white;
@@ -17,4 +14,18 @@ th {
 
 .racer_table td.active {
   background-color: black;
+}
+
+.winner { background-color: orange;
+          margin: 20px auto;
+          width: 600px;
+          height: 600px;
+          padding: 20px 20px 20px 20px;
+          border: 1px dotted black;   
+          font-size: 64px;
+          color: green; 
+}
+
+th {
+  text-align: left;
 }
